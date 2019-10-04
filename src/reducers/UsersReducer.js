@@ -1,5 +1,3 @@
-import { statement } from "@babel/template";
-
 export default (statement, action) => {
   switch (action.type) {
       case 'FETCH_USER':
